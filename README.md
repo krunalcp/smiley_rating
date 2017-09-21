@@ -39,7 +39,7 @@ Now add a blank division to you html template like:
 And add one hidden  field which will provides with your rating string:
 
 ```HAML
-= f.hidden_field :mood
+= f.hidden_field :mood, id: 'rating'
 ```
 
 Now, add a script to generate smiley rating:
